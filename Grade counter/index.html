@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Grade Counter
+        </title>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width intial-scale=1.0"/>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+
+    <body>
+       
+            <div class="container">
+                
+        <div id="title">
+            <h1>Grade <br>Calculator</h1>
+            </div>
+        <div class="form">
+            <div class="form-group">
+                <input type="text" class="field" id="html" placeholder="HTML"/>
+            </div>
+            <div class="form-group">
+                <input type="text"  class="field" id="css" placeholder="CSS"/>
+            </div>
+            <div class="form-group">
+                <input type="text"  class="field" id="js" placeholder="JavaScript"/>
+            </div>
+            <div class="form-group">
+                <input type="text"  class="field" id="react" placeholder="ReactJS"/>
+            </div> 
+            <div>
+                <input type="button"  value="Show-Percentage" class="submit-button" onclick="calculate()"/>
+            </div>
+        </div>
+        <div class="showdata">
+            <p id="showData"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    </body>
+</html>
